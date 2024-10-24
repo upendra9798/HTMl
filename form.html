@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Registration form</h4>
+    <form action="/action.php">
+        <input TYPE="text" placeholder="username">   <!--placeholder- phle se kya likha hoga-->
+        <br>
+        <input type="password" placeholder=" password">
+<br>
+<h5>Select your class</h5>
+         <!--RADIO FUNCTION-->
+        <input type="radio" value="class XI" name="class">class XI   <!--radio- DUE TO THIS WE CAN SELECT ONLY ONE OPTIONS AMONG CHOICE-->
+        <input type="radio" value="class XII" name="class">class XII  
+ <!--IN BACKEND THING WRITTEN IN VALUE IS VISIBLE IF WE WRITE IN LAST XI AND GIVE VALUE=XII THEN INF WILL BE ABOUT XII BUT USER WILL THINK IT IS ABOUT XI AS HE CANT SEE BACKEND VALUE VICEVERSA-->
+ <br>
+<br>
+
+<label for="101">  <!--BY PROVIDING LABEL WE CAN SELECT OPTIONS BY CLICKING ON NAMEVNOT ONLY IN BLANK SPACE-->
+ <input type="radio" value="class V" name="class" ID="101">class V  
+</label>
+<label for="102">
+ <input type="radio" value="class VI" name="class" id="102">class VI 
+</label>
+<br>
+
+<!--CHECBOX FUNCTION - USED WHEN WE HAVE TO SELECT MULTIPLE OPTIONS-->
+<h5>Select fav subjects</h5> 
+<label for="math">
+<input type="checkbox" value="math" name="subject" id="101">Math
+</label>
+<br><br>
+
+<label for="phy">
+    <input type="checkbox" value="phy" name="subject" id="102">phy
+    </label>
+    <br><br>
+    <label for="chem">
+        <input type="checkbox" value="chem" name="subject" id="103">chem
+        </label>
+        <br><br>
+        <label for="cs">
+            <input type="checkbox" value="cs" name="subject" id="104">cs
+            </label>
+<br>
+<br>
+<!--Select Function-->
+Select your city
+<select name="city">
+    <option value="Delhi">Delhi </option>
+    <option value="Banglore">Banglore</option>
+    <option value="Pune">Pune </option>
+    <option value="Mumbai">Mumbai </option>
+</select>
+<br>
+<br>
+
+<!--Feedback form-->
+            <textarea name="feedback" id="101" placeholder="please give your valuable feedback
+            here" rows=5></textarea>
+<br><br>
+
+<!--Submit button-->
+<input type="submit" value="submit">
+<br><br>
+<br><br>
+
+<!--iframe TAG- USED FOR SHOWING OTHERS WEBSITE OR YOUTUBE VIDEO ON YOUR WEBSITE NOT WORK FOR ALL-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=k8rChmdv4HFfYKix"
+ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <br><br>
+ <br><br>
+ <iframe  width="560" height="315" src="https://www.wikipedia.org/" ></iframe>
+
+ <!--Video tag- For seeing videos-->
+ <video width="560" height="315" src="/myvideo.mp4" controls loop>my video</video> <!--We use control function to use all comtrols like play speed etc-->
+<!--loop- To play video again when it ends-->
+<!--autoplay- To play video  when you open the website-->
+
+
+        <form>
+</body>
+</html>
